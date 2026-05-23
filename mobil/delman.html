@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Delman GT - Nusantara</title>
+
+  <link rel="stylesheet" href="../style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<!--floating cs-->
+<a href="https://wa.me/62867676767" target="_blank" class="cs-button">
+  <img src="..\foto mobil\Another\logo.png" alt="Customer Service">
+</a>
+
+<body class="detail-page">
+
+<!-- HEADER (FIX: sekarang di dalam body) -->
+<header class="detail-header">
+  <a href="../models.html">← BACK TO MODELS</a>
+</header>
+
+<!-- TOP -->
+<section class="detail-top">
+  <h1>NUSANTARA AUTOMOTIVES</h1>
+  <h2>DELMAN GT</h2>
+
+  <img id="car-side"
+       src="..\foto mobil\Delman\delman side.png"
+       onerror="this.src='https://placehold.co/1200x500?text=Side+View'">
+</section>
+
+<!-- BOTTOM -->
+<section class="detail-bottom">
+
+  <!-- LEFT -->
+  <div class="detail-left">
+
+    <!-- INFO -->
+    <div class="info-block">
+      <h2 class="model-name">DELMAN GT</h2>
+      <p class="fuel">GASOLINE</p>
+
+      <div class="spec-block">
+        <h3>3.5 S</h3>
+        <p>ACCELERATION 0 – 100 KM/H</p>
+
+        <h3>448 KW / 610 PS</h3>
+        <p>POWER (KW) / POWER (PS)</p>
+
+        <h3>280 KM/H</h3>
+        <p>TOP SPEED</p>
+      </div>
+    </div>
+
+    <!-- ACTION -->
+    <div class="action-block">
+
+      <div class="detail-buttons">
+        <button id="open-spec" class="btn-outline">VIEW ALL DETAILS</button>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- RIGHT -->
+  <div class="detail-right">
+    <img id="car-front"
+         src="..\foto mobil\Delman\delman front.png"
+         onerror="this.src='https://placehold.co/600x400?text=Front+View'">
+  </div>
+
+</section>
+
+<div id="spec-overlay" class="spec-overlay">
+
+  <!-- BLUR BACKGROUND -->
+  <div class="spec-backdrop"></div>
+
+  <!-- PANEL -->
+<div class="spec-panel">
+
+  <div class="spec-header">
+    <h2>NUSANTARA DELMAN GT</h2>
+    <span id="close-spec" class="close-btn">&times;</span>
+  </div>
+
+  <!-- TAGLINE -->
+  <p class="spec-tagline">
+    Tradition Meets Extreme Performance.
+  </p>
+
+  <!-- DESCRIPTION -->
+  <p class="spec-desc">
+    Delman GT adalah heritage hypercar concept yang memadukan elemen kendaraan tradisional
+    Indonesia dengan teknologi otomotif modern.
+  </p>
+
+  <!-- ACCORDION -->
+  <div class="spec-accordion">
+
+    <!-- DESIGN -->
+    <div class="spec-item">
+      <div class="spec-title">Design Philosophy</div>
+      <div class="spec-content">
+        <p><strong>Tradition Meets Performance</strong> menghadirkan perpaduan antara elemen visual tradisional,
+        struktur modern, dan karakter unik yang tidak dimiliki mobil lain.</p>
+
+        <ul>
+          <li>Traditional vehicle-inspired silhouette</li>
+          <li>Modern performance structure</li>
+          <li>Unique cultural identity</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- EXTERIOR -->
+    <div class="spec-item">
+      <div class="spec-title">Exterior Highlights</div>
+      <div class="spec-content">
+        <ul>
+          <li><strong>Heritage Delman Body</strong></li>
+          <li><strong>Modern Spoke Wheels</strong></li>
+          <li><strong>Open Engine Pod</strong></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- INTERIOR -->
+    <div class="spec-item">
+      <div class="spec-title">Interior Experience</div>
+      <div class="spec-content">
+        <ul>
+          <li>Classic brown leather</li>
+          <li>Traditional carved wood panels</li>
+          <li>Modern aluminium trim</li>
+          <li>Wood-accent steering wheel</li>
+          <li>Open cabin layout</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- PERFORMANCE -->
+    <div class="spec-item">
+      <div class="spec-title">Performance</div>
+      <div class="spec-content">
+        <ul>
+          <li>5.2L Naturally Aspirated V10</li>
+          <li>610 HP</li>
+          <li>0–100 km/h: 3.5 s</li>
+          <li>Top Speed: 280 km/h</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- CHASSIS -->
+    <div class="spec-item">
+      <div class="spec-title">Chassis & Structure</div>
+      <div class="spec-content">
+        <ul>
+          <li>Aluminium frame</li>
+          <li>Carbon fiber body panels</li>
+          <li>Lightweight structural balance</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- PURPOSE -->
+    <div class="spec-item">
+      <div class="spec-title">Concept Purpose</div>
+      <div class="spec-content">
+        <ul>
+          <li>Show cultural identity in automotive design</li>
+          <li>Explore tradition and modern technology</li>
+          <li>Showcase concept vehicle innovation</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- SUMMARY -->
+    <div class="spec-item">
+      <div class="spec-title">Specifications Summary</div>
+      <div class="spec-content">
+        <ul>
+          <li>Engine: 5.2L Naturally Aspirated V10</li>
+          <li>Power: 610 HP</li>
+          <li>Drivetrain: Concept layout</li>
+          <li>Acceleration: 3.5 s</li>
+          <li>Top Speed: 280 km/h</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+</div>
+
+<!-- SCRIPT -->
+<script>
+const sideImage = document.getElementById("car-side");
+const frontImage = document.getElementById("car-front");
+
+const openSpec = document.getElementById("open-spec");
+const closeSpec = document.getElementById("close-spec");
+const specOverlay = document.getElementById("spec-overlay");
+
+if (openSpec && closeSpec && specOverlay) {
+
+  openSpec.addEventListener("click", () => {
+    specOverlay.classList.add("active");
+  });
+
+  closeSpec.addEventListener("click", () => {
+    specOverlay.classList.remove("active");
+  });
+
+  // klik backdrop untuk close
+  specOverlay.addEventListener("click", (e) => {
+    if (e.target.classList.contains("spec-backdrop")) {
+      specOverlay.classList.remove("active");
+    }
+  });
+}
+
+/* ACCORDION */
+const specItems = document.querySelectorAll(".spec-item");
+
+specItems.forEach(item => {
+  item.addEventListener("click", () => {
+    item.classList.toggle("active");
+  });
+});
+</script>
+
+</body>
+</html>
